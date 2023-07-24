@@ -10,7 +10,8 @@ int main()
     cout.tie(NULL);
     
     int n;
-    int arr[300000];
+    
+    vector<int> arr(300000);
     
     while(true)
     {
